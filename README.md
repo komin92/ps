@@ -1,2 +1,2 @@
 # ps
-powershell for sysadmin | devops
+powershell scripts / modules for sysadmin | devops
