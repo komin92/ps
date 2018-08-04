@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OPTIONS Product="ASPControlPC" Version="1.2" Author="eduard-albert.prinz">
+
+ 
+ <Functions>
+	<showLogon Enabled="true"/>
+	<showLastLogon Enabled="true"/>
+	<showLocalAdmins Enabled="true"/>
+	<showLocalProfiles Enabled="true"/>
+	<showProcesses Enabled="true"/>
+	<showServices Enabled="true"/>
+	<testConnection Enabled="true"/>
+	<showIP Enabled="true"/>
+	<showMAC Enabled="true"/>
+	<showInstallDate Enabled="true"/>
+	<showLastBoot Enabled="true"/>
+	<openUserManagement Enabled="true"/>
+	<openEventManagement Enabled="true"/>
+	<showPartitionSpace Enabled="true"/>
+	<showScheduledTasks Enabled="true"/>
+	<showShares Enabled="true"/>
+	<showUserLanguage Enabled="true"/>
+	<showEnvironments Enabled="true"/>
+	<showMappedDrive Enabled="true"/>
+	<checkMemoryUsage Enabled="true"/>
+	<RestartComputer Enabled="true"/>
+	<StopComputer Enabled="true"/>
+	<RemoteDesktop Enabled="true"/>
+	<SendMessage Enabled="true"/>
+	<OpenCDrive Enabled="true"/>
+	<OpenVSEDrive Enabled="true"/>
+	<RestartEris Enabled="true"/>
+	<WakeUp Enabled="true"/>
+	<ADComputerInfos Enabled="true"/>
+	<deleteCredentials Enabled="false"/>
+	<updatelist Enabled="true"/>
+	<searchupdate Enabled="true"/>
+	<deleteupdate Enabled="true"/>
+	<updatecount Enabled="true"/>
+	<updatelogs Enabled="true"/>
+	<remreg Enabled="true"/>
+	<importcsv Enabled="true"/>
+	<instsw Enabled="true"/>
+	<cpuload Enabled="true"/>
+	<fwstatus Enabled="true"/>
+	<monitor Enabled="true"/>
+	<ieversion Enabled="true"/>
+	<psversion Enabled="true"/>
+	<netversion Enabled="true"/>
+	<printer Enabled="true"/>
+	<rp Enabled="true"/>
+	<netstat Enabled="true"/>
+ </Functions>
+ <languageKey index="en">
+	<label index="btnnetstat">show network activity</label>
+	<label index="btnrebootpending">show reboot pending</label>
+	<label index="btnprinter">show printer</label>
+	<label index="btnieversion">show ie version</label>
+	<label index="btnpsversion">show ps version</label>
+	<label index="btnnetversion">show .net version</label>
+	<label index="btnfw">show firewall status</label>
+	<label index="btncpu">cpu load</label>
+	<label index="btnrestart">reboot</label>
+	<label index="btnrestartloggedoff">reboot if user is logged off</label>
+	<label index="btninstsw">show installed server42 software</label>
+	<label index="btnmsg">send message</label>
+	<label index="btncdrive">open c drive</label>
+	<label index="btnstop">shutdown</label>
+	<label index="btnstoploggedoff">shutdown if user is logged off</label>
+	<label index="btnrdp">remote desktop</label>
+	<label index="btneris">restart eris</label>
+	<label index="btnservices">show services</label>
+	<label index="btnexit">exit</label>
+	<label index="btnprocesses">show process</label>
+	<label index="btnprofiles">show profiles</label>
+	<label index="btnlastlogon">show last logon</label>
+	<label index="btnlastboot">show last boot</label>
+	<label index="btninstalldate">show install date</label>
+	<label index="btnlocaladmins">show local admins</label>
+	<label index="btnlogon">show logon</label>
+	<label index="btnselectall">select all</label>
+	<label index="btnunselectall">unselect all</label>
+	<label index="btnsearch">search</label>
+	<label index="btnusers">open user management</label>
+	<label index="btnevents">open event management</label>
+	<label index="btnip">show ip</label>
+	<label index="btnmac">show mac</label>
+	<label index="btntestcon">test connection</label>
+	<label index="btnspace">show partition space</label>
+	<label index="btntasks">show scheduled tasks</label>
+	<label index="btnshares">show shares</label>
+	<label index="btnuserlang">show user language</label>
+	<label index="btnwakeup">wake up</label>
+	<label index="btnremreg">reset server fail count</label>
+	<label index="btnvsedrive">mcafee logs</label>
+	<label index="btnimportcsv">import csv-file</label>
+	<label index="btnadinfos">active directory computer infos</label>
+	<label index="btnenv">show environments</label>
+	<label index="btnmdrive">show mapped drive</label>
+	<label index="btnmemory">check memory usage</label>
+	<label index="btndelcred">switch adm user</label>
+	<label index="btnupdcount">show update count</label>
+	<label index="btndelupdate">uninstall update</label>
+	<label index="btnsupdate">search update</label>
+	<label index="btnupdlist">show update list</label>
+	<label index="btnupdatelogs">show update logs</label>
+	<label index="btnchlang">change language to</label>
+	<label index="btnmonitor">show monitor model</label>
+</languageKey>
+
+<languageKey index="de" type="array">
+	<label index="btnnetstat">Netzwerkaktivität anzeigen</label>
+	<label index="btnrebootpending">show reboot pending</label>
+	<label index="btnprinter">Drucker anzeigen</label>
+	<label index="btnieversion">IE Version anzeigen</label>
+	<label index="btnpsversion">PS Version anzeigen</label>
+	<label index="btnnetversion">.NET Version anzeigen</label>
+	<label index="btnfw">Firewall status anzeigen</label>
+	<label index="btncpu">CPU Auslastung</label>
+	<label index="btnrestart">Neustarten</label>
+	<label index="btnrestartloggedoff">Neustarten nur wenn User ausgeloggt ist</label>
+	<label index="btninstsw">installierte server42 Programme anzeigen</label>
+	<label index="btnmsg">Nachricht senden</label>
+	<label index="btncdrive">Oeffne System Laufwerk</label>
+	<label index="btnstop">Herunterfahren</label>
+	<label index="btnstoploggedoff">Herunterfahren nur wenn User ausgeloggt ist</label>
+	<label index="btnrdp">Remote Desktop</label>
+	<label index="btneris">ERIS Neustarten</label>
+	<label index="btnservices">Services anzeigen</label>
+	<label index="btnexit">Beenden</label>
+	<label index="btnprocesses">Prozesse anzeigen</label>
+	<label index="btnprofiles">Profile anzeigen</label>
+	<label index="btnlastlogon">letzen Login anzeigen</label>
+	<label index="btnlastboot">letzten Neustart anzeigen</label>
+	<label index="btninstalldate">Installationsdatum anzeigen</label>
+	<label index="btnlocaladmins">lokale Admins anzeigen</label>
+	<label index="btnlogon">aktuellen Login anzeigen</label>
+	<label index="btnselectall">Alle auswaehlen</label>
+	<label index="btnunselectall">Auswahl zuruecksetzen</label>
+	<label index="btnsearch">Suche</label>
+	<label index="btnusers">Oeffne Benutzerverwaltung</label>
+	<label index="btnevents">Oeffne Ereignisanzeige</label>
+	<label index="btnip">IP anzeigen</label>
+	<label index="btnmac">MAC anzeigen</label>
+	<label index="btntestcon">Verbindungstest</label>
+	<label index="btnspace">Verbrauch Festplattenplatz</label>
+	<label index="btntasks">Aufgabenplanung anzeigen</label>
+	<label index="btnshares">Freigaben anzeigen</label>
+	<label index="btnuserlang">Benutzersprache anzeigen</label>
+	<label index="btnwakeup">Computer aufwecken</label>
+	<label index="btnremreg">setze Fehleranzahl zurueck</label>
+	<label index="btnvsedrive">McAfee Logs</label>
+	<label index="btnimportcsv">Import CSV-Datei</label>
+	<label index="btnadinfos">Active Directory Computer Infos</label>
+	<label index="btnenv">Umgebungsvariablen anzeigen</label>
+	<label index="btnmdrive">Netzlaufwerke anzeigen</label>
+	<label index="btnmemory">Verbrauch Hauptspeicher</label>
+	<label index="btndelcred">adm Benutzer wechseln</label>
+	<label index="btnupdcount">Updates-Anzahl anzeigen</label>
+	<label index="btndelupdate">Deinstalliere Update</label>
+	<label index="btnsupdate">Suche nach Update</label>
+	<label index="btnupdlist">Update-Liste anzeigen</label>
+	<label index="btnupdatelogs">Update-Logs anzeigen</label>
+	<label index="btnchlang">Wechsel Sprache auf</label>
+	<label index="btnmonitor">Monitormodell anzeigen</label>
+</languageKey>
+
+ <Messages>
+	 <notifyingInformation Text="
+	 Bitte in der Anmeldeinformationsverwaltung die Anmeldeinformationen           
+	 wie Benutzernamen, Kennwort und Netzwerkadresse einmalig speichern,           
+	 die zur Anmeldung auf anderen Computern verwendet werden.                     
+	 Netzwerkadresse: *.univie.ac.at                                               
+	 Benutzername: u\admuser                                                       
+	 Kennwort: admuser password                                                    
+	"/>
+ </Messages>
+ 
+ <jobDescriptions>
+	<send Text="send message"/>
+	<test Text="test connection"/>
+	<stop Text="shutdown"/>
+	<restart Text="reboot"/>	
+	<logon Text="view logon"/>
+	<lastlogon Text="view lastlogon"/>
+	<profiles Text="view local profiles"/>
+	<wsusupdates Text="wsusupdates"/>
+	<services Text="get service management"/>
+	<events Text="get event management"/>
+	<users Text="get user management"/>
+	<ladmins Text="view local admins"/>
+	<cdrive Text="open c drive"/>
+	<space Text="view free space"/>
+	<rdp Text="open remote desktop"/>
+	<comp Text="open remote computer management"/>
+	<ip Text="show ip address"/> 
+	<mac Text="show mac address"/> 
+	<lastboot Text="show lastboot and uptime"/> 
+	<userlang Text="show user profile mui language"/> 
+	<env Text="show all environment variables"/> 
+	<port Text="test port via tcp"/> 
+	<member Text="show domain membership"/> 
+	<pkey Text="show the product key and os information"/>  
+	<tasks Text="show the informations about scheduled tasks"/>  
+	<mac Text="show mac address"/> 
+	<getservices Text="show all services"/> 
+	<setservice Text="stop,start,enable or disable service"/> 
+	<eris Text="restart server remote installation service"/> 
+	<installdate Text="get the system installation date"/> 
+	<shares Text="get all shares and the share permissions for each share"/> 
+	<stopproc Text="stop process"/> 
+	<proc Text="get process"/>  
+	<setup Text="delete all setup.inf`s"/> 
+	<wake Text="wake on lan"/> 
+	<adinfos Text="get active directory infos"/> 
+	<ie Text="get internet explorer version"/> 
+	<updcount Text="get installed ms update count"/> 
+	<updlist Text="get installed ms update list"/> 
+	<programs Text="get all installed programs"/>
+	<getsessions Text="get all open sessions"/>
+	<copyx Text="copyx"/>
+	<mdrive Text="get all mapped drive"/>
+	<memo Text="get memory usage"/>
+	<uninstall Text="uninstall hotfix"/>
+	<searchhotfix Text="search hotfix"/>
+	<installapps Text="get all install apps"/>
+	<remreg Text="remove subkeytree asp team"/>
+	<instsw Text="get all installed software under asp team"/>
+	<wsusfailcount Text="get wsusfailcount"/>
+	<cpu Text="get cpu load and sort cpupercent"/>
+	<fw Text="get firewall status"/>
+	<moni Text="get monitor informations"/>
+	<psv Text="get powershell version"/>
+	<nsv Text="get .net version"/>
+	<printer Text="get printer and printer status"/>
+	<rp Text="get reboot pending files"/>
+	<netstat Text="get network activity"/>
+	<erislog Text="get eris log status"/>
+	<erislogon Text="set eris log on"/>
+	<erislogoff Text="set eris log off"/>
+ </jobDescriptions>
+</OPTIONS>
